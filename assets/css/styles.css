@@ -1,0 +1,46 @@
+body{
+
+    background-color: #CCCCCC;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+
+    background-image: linear-gradient(to bottom, #220d25, #311236, #411748, #521b5b, #631f6f);
+
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    color: white;
+}
+
+.formulario{
+
+    width: 90%;
+    margin: auto;
+    background-image: linear-gradient(to top, #220d25, #311236, #411748, #521b5b, #631f6f);
+
+    border-radius: 10px;
+    border: 0;
+
+}
+
+.finalistas{
+
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
