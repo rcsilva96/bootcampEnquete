@@ -51,10 +51,66 @@ body{
 
 }
 
+    .title-form{
+
+        padding: 15px 0 15px 0;
+        font-size: 2rem;
+        font-weight: 500;
+
+    }
+
+    input{
+
+        margin: 5px 0 5px 0;
+        border-radius: 5px;
+        border: none;
+
+        width: 70%;
+        height: 2rem;
+
+    }
+
 .finalistas{
 
     display: flex;
     flex-direction: row;
     
     justify-content: space-around;
+    align-content: center;
+
+    margin-bottom: 20px;
 }
+
+    .opcao{
+
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        background-image: linear-gradient(to bottom, #3b59ee, #007dfd, #009cff, #33b7ff, #74d0ff);
+
+        border: 15px solid #2638DB; 
+        border-radius: 15px;
+
+    }
+
+        .opcao img{
+
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        .opcao button{
+
+            display: block; 
+            margin: 0 auto;
+            margin-bottom: 10px; 
+            padding: 10px 20px; 
+            background-color: #1D0C20; 
+            color: white; 
+            border: 0;
+            border-radius: 5px; 
+            cursor: pointer; 
+            transition: background-color 0.3s; 
+
+        }
