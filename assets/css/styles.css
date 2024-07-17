@@ -78,7 +78,10 @@ body{
     justify-content: space-around;
     align-content: center;
 
+    width: 85%;
+
     margin-bottom: 20px;
+    margin: auto;
 }
 
     .opcao{
@@ -127,6 +130,13 @@ body{
 
         display: flex;
         flex-direction: column;
+        align-content: center;
+
+    }
+
+    .opcao{
+
+        align-self: center;
 
     }
     
